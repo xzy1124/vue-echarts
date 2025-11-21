@@ -6,6 +6,7 @@
 **项目类型**：前端数据可视化应用
 **技术栈**：Vue 3 + Vite + ECharts + Vue Router + Axios + SCSS/LESS
 **部署平台**：GitHub Pages
+**在线展示**:https://xzy1124.github.io/vue-echarts/
 
 ---
 
