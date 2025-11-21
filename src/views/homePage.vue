@@ -60,7 +60,7 @@ header {
 }
 .container {
   width: 100%;
-  max-width: none;
+  // max-width: none;
   margin: 0;
   padding: .625rem;
   // background-color: gray;
@@ -68,6 +68,8 @@ header {
   .itemLeft, .itemRight {
     flex: 1;
     min-width: 0;
+    // 防止内容溢出
+    overflow: hidden;
   }
   .itemCenter {
     flex: 2;

@@ -33,14 +33,20 @@ onMounted(() => {
       },
       legend: {
         data: ['医疗', '服饰', '电子', '数码', '装备'],
-        top: 'top',
+        top: '3%',
+        type: 'scroll',
+        itemWidth: 10,
+        itemHeight: 10,
+        textStyle: {
+          fontSize: 10,
+        }
       },
       grid: {
         left: '1%',
         right: '4%',
         bottom: '3%',
-        top: '15%',
-        containLabel: true //是否包含坐标轴的刻度标签
+        top: '20%',      // 增加顶部间距
+        containLabel: true
       },
       //设置xy轴
       xAxis: {
